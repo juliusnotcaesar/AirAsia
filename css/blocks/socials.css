@@ -1,0 +1,53 @@
+.socials {
+  margin-left: 268px;
+  margin-top: 49px;
+}
+
+.socials__link {
+  display: block;
+  text-decoration: none;
+  height: 36px;
+  width: 36px;
+}
+
+.socials__item {
+  display: inline-block;
+  position: relative;
+  margin-right: 6px;
+}
+
+.socials__item:last-child {
+  margin-right: 0;
+}
+
+.socials__item_icon_tg .socials__link {
+  background: url(/images/icons/socials/t.png);
+}
+
+.socials__item_icon_tg .socials__link:hover {
+  background: url(/images/icons/socials/t2.png);
+}
+
+.socials__item_icon_vk .socials__link {
+  background: url(/images/icons/socials/vk.png);
+}
+
+.socials__item_icon_vk .socials__link:hover {
+  background: url(/images/icons/socials/vk2.png);
+}
+
+.socials__item_icon_fb .socials__link {
+  background: url(/images/icons/socials/f.png);
+}
+
+.socials__item_icon_fb .socials__link:hover {
+  background: url(/images/icons/socials/f2.png);
+}
+
+.socials__item_icon_inst .socials__link {
+  background: url(/images/icons/socials/in.png);
+}
+
+.socials__item_icon_inst .socials__link:hover {
+  background: url(/images/icons/socials/in2.png);
+}

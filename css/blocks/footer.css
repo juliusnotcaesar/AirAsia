@@ -1,0 +1,37 @@
+.footer-container {
+  height: 146px;
+  margin: 0 auto;
+  padding: 0px 0px;
+  width: 1141px;
+  display: flex;
+  flex-flow: row wrap;
+}
+
+.footer {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 100%;
+  border-top: 1px solid #ffffff1a;
+  align-self: center;
+} 
+
+.footer__service {
+  background: #001821;
+  border-top: 0px;
+  padding-bottom: 40px;
+  height: 170px;
+}
+
+.logo__footer {
+  margin-top: 36px;
+}
+
+.menu__footer {
+  margin-top: 39px;
+  /* margin-left: -456px; */
+}
+
+.contacts__footer {
+  margin-bottom: -51px;
+}

@@ -1,0 +1,72 @@
+.about:before {
+  content: "";
+  display: inline-block;
+  vertical-align: top;
+  align-self: start;
+  width: 490px;
+  height: 505px;
+  background: url(../../images/decor/gates.jpg) center center / cover no-repeat;
+  border-radius: 5px;
+  /* background-size: 100%; */
+  background-size: cover;
+  background-position-y: 97%;
+  background-position-x: 51%;
+  }
+  
+.about {
+  margin-top: 146px;
+  margin-bottom: -23px;
+  border-radius: 5px;
+}
+
+.about__content {
+  width: 784px;
+  min-height: 479px;
+  background: url(../../images/decor/mountains.jpg) center center / cover no-repeat;
+  background-size: cover;
+  background-position-x: 106%;
+  background-position-y: -15%;
+  padding: 64px 65px;
+  display: inline-block;
+  vertical-align: top;
+  margin-left: 354px;
+  margin-top: -426px;
+  margin-bottom: 45px;
+  overflow: hidden;
+  border-radius: 5px;
+}
+
+.about__title {
+  font-weight: bold;
+  font-size: 36px;
+  color: #000000;
+  padding: 19px 15px;
+}
+
+.about__text {
+  width: 79%;
+  min-height: 135px;
+  font-weight: normal;
+  margin-top: 18px;
+}
+
+.about__text p {
+  margin-bottom: 20px;
+  margin-left: 10px;
+  margin-top: -5px;
+  font-size: 16px;
+  color: #060606;
+  margin-bottom: 40px;
+  margin-left: 17px;
+  line-height: 1.69;
+}
+
+.about__text p:last-child {
+  margin-bottom: 0px;
+}
+
+.about__button {
+  margin-left: 15px;
+  margin-top: 42px;
+  padding: 20px 40px;
+}

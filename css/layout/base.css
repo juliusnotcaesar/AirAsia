@@ -1,0 +1,131 @@
+* {
+  max-width: 100%;
+  background: center center no-repeat;
+  box-sizing: border-box;
+  font-family: 'Open Sans', 'Helvetica', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 1.69;
+  color: #fff;
+  margin: 0px;
+  padding: 0px;
+  border: none;
+}
+
+html, body {
+  height: 100%;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background: #001821;
+}
+
+.wrapper {
+  display: flex;
+  flex-flow: column wrap;
+  overflow: hidden;
+  min-width: 1165px;
+  min-height: 100%;
+}
+
+.wrapper__service {
+  background: #F4F5F5;
+}
+
+.header-bg {
+  background: url(../../images/bg/headline.jpg) center top no-repeat;
+}
+
+.wrapper__bg {
+  background-image: url(../../images/bg/headline.jpg);
+}
+
+a {
+  color: inherit;
+}
+
+ul {
+  padding: 0;
+  margin: 0;
+}
+
+ul li {
+  list-style: none;
+  display: inline-flex;
+}
+
+h1, h1, h3, h4, h5, h6 {
+  margin: 0;
+  font-weight: normal;
+}
+
+p {
+  margin-top: 0;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
+
+.container {
+  flex: 1;
+  margin: 0 auto;
+  padding: 0px 0px;
+  width: 1141px;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  align-items: center;
+  overflow: visible;
+}
+
+.button {
+  border-radius: 35px;
+  background: #F5170E;
+  padding: 18px 37px;
+  font-weight: bold;
+  font-size: 14px;
+  color: #FFFFFF;
+  text-transform: uppercase;
+  border: 0px;
+}
+
+button:active, button:focus {
+  outline: none;
+}
+button::-moz-focus-inner {
+  border: 0;
+}
+
+.button:hover {
+  background: #DA0100;
+}
+
+.button_watch {
+  padding: 18px 29px;
+  margin-left: 2px;
+  margin-top: -4px;
+}
+
+.button_color-white {
+  background: #FFFFFF;
+  border: 1px solid #F5170E;
+  color: #F5170E;
+}
+
+.button_color-white:hover {
+  background: #F5170E;
+  color: #FFFFFF;
+}
+
+.wrapper__content {
+  background: url(../../images/bg/hero.jpg) center top no-repeat, url(../../images/bg/bottom-pic.jpg) center bottom 165px no-repeat;
+  
+}
+
+.main {
+  flex: 1;
+  align-self: center;
+}
+
