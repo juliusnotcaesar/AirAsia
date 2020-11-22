@@ -12,17 +12,10 @@
   color: #F5170E;
 }
 
-.paginator__light-theme {
+.paginator__light-theme,
+.paginator__light-theme a {
   color: #000000;
 }
-
-.paginator__light-theme .paginator__display {
-  margin-left: 47px;
-}
-
-/* .paginator__light-theme .paginator__list {
-  margin-right: 40px;
-} */
 
 .paginator__light-theme .paginator__item_active .paginator__link {
   color: #FFFFFF;
@@ -34,7 +27,8 @@
   background: #F5170E;
 }
 
-.paginator__display, .paginator__list {
+.paginator__display,
+.paginator__list {
   display: flex;
   vertical-align: middle;
   font-size: 16px;
@@ -53,6 +47,7 @@
   width: 32px;
   height: 32px;
   border-radius: 50%;
+  transition: 0.3s;
 }
 
 .paginator__item:hover {
@@ -70,4 +65,5 @@
   font-weight: bold;
   font-size: 16px;
   line-height: 32px;
+  transition: 0.3s;
 }

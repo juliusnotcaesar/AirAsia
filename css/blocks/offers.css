@@ -1,37 +1,7 @@
 .offers {
-  /* background:#F2F2F2; */
-  background: #fff;
   color: #303030;
-  padding: 40px 0;
-}
-
-.offer {
-  display: flex;
-  text-decoration: none;
-}
-
-.offers__item {
-  margin-bottom: -10px;
-}
-
-.offers__item:last-child {
-  margin-bottom: 59px;
-}
-
-.offer__img {
-  width: 460px;
-  height: 333px;
-  margin-top: 59px;
-  /* width: 40%;
-  margin-right: 7%; */
-  overflow: hidden;
-  border-radius: 5px;
-}
-
-.offer__content {
-  flex: 1;
-  margin-left: 56px;
-  margin-top: 71px;
+  padding-top: 48px;
+  padding-bottom: 84px;
 }
 
 .offers__list {
@@ -39,11 +9,44 @@
   flex-flow: column wrap;
 }
 
+.offers__item {
+  margin-top: 50px;
+}
+
+.offers__item:last-child {
+  margin-bottom: 59px;
+}
+
+.offer {
+  display: flex;
+}
+
+.offer__img {
+  /* width: 460px; */
+  width: 40.4%;
+  height: 333px;
+  border-radius: 5px;
+}
+
+.offer__img.waterfall {
+  background: url(/images/content/service/waterfall.jpg) center center / cover no-repeat;
+}
+
+.offer__img.monkeys {
+  background: url(/images/content/service/monkeys.jpg) center center / cover no-repeat;
+}
+
+.offer__content {
+  flex: 1;
+  margin-top: 12px;
+  margin-left: 58px;
+}
+
 .offer__title {
   font-weight: bold;
   font-size: 36px;
   line-height: 49px;
-  color: #000000;
+  color: #111111;
   margin-bottom: 30px;
 }
 

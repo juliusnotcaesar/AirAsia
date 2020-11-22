@@ -1,0 +1,33 @@
+.main-page h1 {
+  width: 50%;
+  font-size: 72px;
+  font-weight: bold;
+  line-height: 1.36;
+  margin-top: -128px;
+  margin-bottom: 30px;
+}
+
+.second-page h1 {
+  width: 50%;
+  font-size: 72px;
+  font-weight: bold;
+  line-height: 1.36;
+  margin-top: auto;
+  margin-bottom: auto;
+  padding-top: 40px;
+}
+
+h2 {
+  font-size: 36px;
+  font-weight: bold;
+  line-height: 1.36;
+  margin-top: 0px;
+  margin-bottom: 40px;
+}
+
+h3 {
+  font-size: 24px;
+  font-weight: bold;
+  line-height: 1.5;
+  margin: 0px;
+}

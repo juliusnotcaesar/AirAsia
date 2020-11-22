@@ -1,0 +1,84 @@
+header .container {
+  padding-top: 18px;
+}
+
+.main-page .logo {
+  width: 85px;
+  height: 36px;
+  margin-top: 14px;
+
+}
+
+.second-page .logo {
+  width: 98px;
+  height: 42px;
+  margin-top: 14px;
+}
+
+.menu {
+  margin-right: auto;
+  margin-top: 14px;
+}
+
+.main-page .menu__list {
+  padding-left: 80px;
+}
+
+.second-page .menu__list {
+  padding-left: 66px;
+}
+
+.menu__item {
+  margin-right: 54px;
+}
+
+.menu__link {
+  font-size: 14px;
+}
+
+.contacts {
+  display: flex;
+  flex-flow: column wrap;
+  margin-top: 7px;
+}
+
+.contacts__phone {
+  font-size: 26px;
+  line-height: 35px;
+}
+
+.contacts__phone:hover {
+  color: #ffffff;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-flex;
+  flex-flow: column wrap;
+  justify-content: center;
+  align-items: flex-end;
+  margin-top: -5px;
+}
+
+.dropdown__link {
+  font-size: 13px;
+  line-height: 1.54;
+  text-decoration-line: underline;
+}
+
+footer .container {
+  max-width: 1140px;
+  padding: 25px 0px 50px;
+  border-top: 1px solid rgba(255, 255, 255, .1);
+}
+
+.contacts__text {
+  margin-left: auto;
+}
+
+.contacts__text p {
+  font-size: 11px;
+  line-height: 1.82;
+  color: #9A9A9A;
+  display: inline;
+}

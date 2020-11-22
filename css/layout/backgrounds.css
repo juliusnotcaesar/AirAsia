@@ -1,0 +1,25 @@
+body {
+  background: #001821;
+}
+
+.wrapper.main-page {
+  background: url(../../images/bg/hero.jpg) center top no-repeat,
+              url(../../images/bg/bottom-pic.jpg) center bottom 165px no-repeat;
+
+}
+
+.wrapper.second-page {
+  background: url(../../images/bg/headline.jpg) center top no-repeat;
+}
+
+.wrapper.welcome-page {
+  background: url(../../images/bg/screen.jpg) center center / 140% no-repeat;
+}
+
+.offers {
+  background: #fff;
+}
+
+.partners {
+  background: #F4F5F5;
+}
