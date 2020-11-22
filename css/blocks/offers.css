@@ -29,11 +29,11 @@
 }
 
 .offer__img.waterfall {
-  background: url(/images/content/service/waterfall.jpg) center center / cover no-repeat;
+  background: url(../../images/content/service/waterfall.jpg) center center / cover no-repeat;
 }
 
 .offer__img.monkeys {
-  background: url(/images/content/service/monkeys.jpg) center center / cover no-repeat;
+  background: url(../../images/content/service/monkeys.jpg) center center / cover no-repeat;
 }
 
 .offer__content {
