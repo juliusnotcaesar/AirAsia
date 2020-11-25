@@ -1,0 +1,19 @@
+.preview .container {
+  flex-flow: column wrap;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.main-page .preview .container {
+  min-height: 700px;
+}
+
+.preview__description p {
+  font-size: 18px;
+  line-height: 1.11;
+  margin-bottom: 35px;
+}
+
+.second-page .preview .container {
+  min-height: 338px;
+}

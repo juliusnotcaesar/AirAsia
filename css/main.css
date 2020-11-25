@@ -5,7 +5,7 @@
 
 
 @import url('./blocks/header-footer.css');
-@import url('./blocks/prewiew.css');
+@import url('./blocks/preview.css');
 @import url('./blocks/breadcrumbs.css');
 @import url('./blocks/tours.css');
 @import url('./blocks/news.css');
@@ -16,3 +16,6 @@
 @import url('./blocks/offers.css');
 @import url('./blocks/partners.css');
 @import url('./blocks/welcome.css');
+@import url('./blocks/reviews.css');
+@import url('./blocks/tags.css');
+@import url('./blocks/forms.css');

@@ -55,7 +55,6 @@ header .container {
   position: relative;
   display: inline-flex;
   flex-flow: column wrap;
-  justify-content: center;
   align-items: flex-end;
   margin-top: -5px;
 }
@@ -64,6 +63,61 @@ header .container {
   font-size: 13px;
   line-height: 1.54;
   text-decoration-line: underline;
+}
+
+.dropdown__link:hover+.dropdown__content, .dropdown__content:hover {
+  left: 32px;
+  opacity: 0.8;
+}
+
+.dropdown__content {
+  position: absolute;
+  background: #EDEDED;
+  opacity: 0;
+  padding: 8px 18px;
+  width: 84%;
+  top: 100%;
+  left: -9999px;
+  margin-top: 5px;
+  border-radius: 9px;
+  transition: opacity .3s;
+}
+
+.dropdown__content::before {
+  position: absolute;
+  top: -9px;
+  left: 93px;
+  content: "";
+  width: 0px;
+  height: 0px;
+  border-top: 0px solid transparent;
+  border-right: 12px solid transparent;
+  border-bottom: 9px solid transparent;
+  border-left: 12px solid transparent;
+  border-bottom-color: #EDEDED;
+}
+
+.dropdown__content::after {
+  content: "";
+  position: absolute;
+  height: 11px;
+  width: 100%;
+  top: -9px;
+  left: 2px;
+}
+
+.dropdown__content p strong {
+  font-size: 13px;
+  font-weight: bold;
+  line-height: 1.62;
+  color: #1E1F20;
+}
+
+.dropdown__content p span {
+  font-size: 13px;
+  font-weight: 600;
+  line-height: 1.62;
+  color: #1E1F20;
 }
 
 footer .container {

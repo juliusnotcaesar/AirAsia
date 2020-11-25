@@ -14,7 +14,7 @@
   outline: none;
 }
 
-*:hover {
+/* *:hover {
   transition: .3s;
 }
 
@@ -36,7 +36,7 @@
 
 *:hover:after {
   transition: .3s;
-}
+} */
 
 html,
 body {
@@ -76,6 +76,7 @@ button {
   color: #FFFFFF;
   text-transform: uppercase;
   cursor: pointer;
+  transition: .3s;
 }
 
 .button-red {
@@ -90,6 +91,14 @@ button {
   border: 1px solid #F5170E;
 }
 
+.button-gray {
+  background: #8E8E8E;
+}
+
+.button-gray:hover {
+  background: #2B2B2B;
+}
+
 .button-red:hover,
 .button-white:hover {
   background: #DA0100;
@@ -100,6 +109,7 @@ button {
 a {
   text-decoration: none;
   cursor: pointer;
+  transition: .3s;
 }
 
 a:hover,

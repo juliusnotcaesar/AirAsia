@@ -7,42 +7,79 @@
 .socials__item {
   display: inline-block;
   margin-right: 10px;
-}
-
-.socials__link {
-  display: block;
   height: 36px;
   width: 36px;
+  position: relative;
+  border-radius: 50%; 
+  cursor: pointer;
 }
 
-.socials__item_icon_tg .socials__link {
-  background: url(/images/icons/socials/t.png);
+.socials__item::before {
+  content: "";
+  display: block;
+  position: absolute;
+  border-radius: 50%;
+  width: 36px;
+  height: 36px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-image: url(/images/icons/socials/sprites.png);
+  opacity: 1;
+  transition: .3s;
 }
 
-.socials__item_icon_tg .socials__link:hover {
-  background: url(/images/icons/socials/t2.png);
+.socials__item::after {
+  content: "";
+  display: block;
+  position: absolute;
+  border-radius: 50%;
+  width: 36px;
+  height: 36px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-image: url(/images/icons/socials/sprites.png);
+  opacity: 0;
+  transition: .3s;
 }
 
-.socials__item_icon_vk .socials__link {
-  background: url(/images/icons/socials/vk.png);
+.socials__item:hover::before {
+  opacity: 0;
 }
 
-.socials__item_icon_vk .socials__link:hover {
-  background: url(/images/icons/socials/vk2.png);
+.socials__item:hover::after {
+  opacity: 1;
 }
 
-.socials__item_icon_fb .socials__link {
-  background: url(/images/icons/socials/f.png);
+.socials__icon_tg::before {
+  background-position: -122px -10px;
 }
 
-.socials__item_icon_fb .socials__link:hover {
-  background: url(/images/icons/socials/f2.png);
+.socials__icon_tg::after {
+  background-position: -122px -66px;
 }
 
-.socials__item_icon_inst .socials__link {
-  background: url(/images/icons/socials/in.png);
+.socials__icon_vk::before {
+  background-position: -10px -122px;
 }
 
-.socials__item_icon_inst .socials__link:hover {
-  background: url(/images/icons/socials/in2.png);
+.socials__icon_vk::after {
+  background-position: -66px -122px;
+}
+
+.socials__icon_fb::before {
+  background-position: -10px -10px;
+}
+
+.socials__icon_fb::after {
+  background-position: -66px -10px;
+}
+
+.socials__icon_inst::before {
+  background-position: -10px -66px;
+}
+
+.socials__icon_inst::after {
+  background-position: -66px -66px;
 }

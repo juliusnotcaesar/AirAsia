@@ -1,0 +1,154 @@
+.reviews {
+  background: #ffffff;
+  padding-top: 98px;
+  padding-bottom: 86px;
+}
+
+.reviews h1 {
+  padding-top: 28px;
+}
+
+.reviews h2 {
+  font-weight: bold;
+  font-size: 30px;
+  line-height: 1.4;
+  color: #1A1B1E;
+  margin-bottom: 13px;
+}
+
+.reviews h3 {
+  line-height: 1.75;
+  color: #1A1B1E;
+  margin-top: -10px;
+  margin-bottom: -13px;
+}
+
+.reviews h3:hover {
+  color: #2E77A4;
+  text-decoration: underline;
+}
+
+.reviews__text {
+  margin-bottom: 50px;
+}
+
+.reviews__text p {
+  color: #818181;
+}
+
+.reviews__date p {
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 1.93;
+  color: #1A1B1E;
+}
+
+.reviews__author {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 27px;
+}
+
+.reviews__info {
+  margin-left: 22px;
+}
+
+.reviews__icon {
+  margin-left: 7px;
+  filter: grayscale(100%);
+  transition: .3s;
+}
+
+.reviews__icon:hover {
+  filter: grayscale(0);
+}
+
+.reviews__name {
+  flex-direction: column;
+}
+
+.reviews__list {
+  flex-direction: column;
+  margin-bottom: 3px;
+}
+
+.list-columns {
+  display: block;
+  column-count: 2;
+  column-gap: 27px;
+  column-width: 480px;
+}
+
+.reviews__item {
+  display: inline-flex;
+  flex-direction: column;
+  padding: 50px 30px;
+  background: #F4F5F5;
+  margin-bottom: 17px;
+  border-radius: 5px;
+}
+
+.reviews__img {
+  width: 142px;
+  height: 142px;
+  overflow: hidden;
+  border-radius: 50%;
+}
+
+.ginger {
+  background: url(../../images/content/reviews/ginger.jpg) center center / cover no-repeat;
+}
+
+.girl {
+  background: url(../../images/content/reviews/girl.jpg) center center / cover no-repeat;
+}
+
+.liza {
+  background: url(../../images/content/reviews/liza.jpg) center center / cover no-repeat;
+}
+
+.guy {
+  background: url(../../images/content/reviews/guy.jpg) center center / cover no-repeat;
+}
+
+.reviews__author {
+  display: flex;
+  align-items: center;
+}
+
+.reviews__name {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  margin-bottom: 3px;
+}
+
+/* SEPARATOR */
+
+.separator {
+  background: url(../../images/bg/middleline.jpg) center center / cover no-repeat;
+  min-height: 363px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.separator .container {
+  background: url(../../images/decor/couple.png) right 8% bottom no-repeat;
+}
+
+/* .separator__img {
+  background: url(../../images/decor/couple.png) right 20% bottom / cover no-repeat;
+} */
+
+.separator__content {
+  max-width: 68%;
+  padding-right: 176px;
+}
+
+.separator__content h2 {
+  font-size: 48px;
+  line-height: 1.4;
+  color: #FFFFFF;
+  padding-top: 44px;
+}
